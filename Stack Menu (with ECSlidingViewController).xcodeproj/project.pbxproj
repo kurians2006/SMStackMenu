@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8145D8193ED94A0001E5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145D7193ED94A0001E5F8 /* Foundation.framework */; };
+		EC8145DA193ED94A0001E5F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145D9193ED94A0001E5F8 /* CoreGraphics.framework */; };
+		EC8145DC193ED94A0001E5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145DB193ED94A0001E5F8 /* UIKit.framework */; };
+		EC8145E2193ED94A0001E5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC8145E0193ED94A0001E5F8 /* InfoPlist.strings */; };
+		EC8145E4193ED94A0001E5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8145E3193ED94A0001E5F8 /* main.m */; };
+		EC8145E8193ED94A0001E5F8 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8145E7193ED94A0001E5F8 /* SMAppDelegate.m */; };
+		EC8145EB193ED94A0001E5F8 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8145E9193ED94A0001E5F8 /* Main_iPhone.storyboard */; };
+		EC8145EE193ED94A0001E5F8 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8145EC193ED94A0001E5F8 /* Main_iPad.storyboard */; };
+		EC8145F1193ED94A0001E5F8 /* SMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8145F0193ED94A0001E5F8 /* SMViewController.m */; };
+		EC8145F3193ED94A0001E5F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8145F2193ED94A0001E5F8 /* Images.xcassets */; };
+		EC8145FA193ED94A0001E5F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145F9193ED94A0001E5F8 /* XCTest.framework */; };
+		EC8145FB193ED94A0001E5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145D7193ED94A0001E5F8 /* Foundation.framework */; };
+		EC8145FC193ED94A0001E5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145DB193ED94A0001E5F8 /* UIKit.framework */; };
+		EC814604193ED94A0001E5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC814602193ED94A0001E5F8 /* InfoPlist.strings */; };
+		EC814606193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC814605193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8145FD193ED94A0001E5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8145CC193ED94A0001E5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8145D3193ED94A0001E5F8;
+			remoteInfo = "Stack Menu (with ECSlidingViewController)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8145D4193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stack Menu (with ECSlidingViewController).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8145D7193ED94A0001E5F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC8145D9193ED94A0001E5F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC8145DB193ED94A0001E5F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC8145DF193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stack Menu (with ECSlidingViewController)-Info.plist"; sourceTree = "<group>"; };
+		EC8145E1193ED94A0001E5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC8145E3193ED94A0001E5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC8145E5193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Stack Menu (with ECSlidingViewController)-Prefix.pch"; sourceTree = "<group>"; };
+		EC8145E6193ED94A0001E5F8 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		EC8145E7193ED94A0001E5F8 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		EC8145EA193ED94A0001E5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EC8145ED193ED94A0001E5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EC8145EF193ED94A0001E5F8 /* SMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMViewController.h; sourceTree = "<group>"; };
+		EC8145F0193ED94A0001E5F8 /* SMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMViewController.m; sourceTree = "<group>"; };
+		EC8145F2193ED94A0001E5F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC8145F8193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stack Menu (with ECSlidingViewController)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8145F9193ED94A0001E5F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC814601193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stack Menu (with ECSlidingViewController)Tests-Info.plist"; sourceTree = "<group>"; };
+		EC814603193ED94A0001E5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EC814605193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack_Menu__with_ECSlidingViewController_Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8145D1193ED94A0001E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8145DA193ED94A0001E5F8 /* CoreGraphics.framework in Frameworks */,
+				EC8145DC193ED94A0001E5F8 /* UIKit.framework in Frameworks */,
+				EC8145D8193ED94A0001E5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8145F5193ED94A0001E5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8145FA193ED94A0001E5F8 /* XCTest.framework in Frameworks */,
+				EC8145FC193ED94A0001E5F8 /* UIKit.framework in Frameworks */,
+				EC8145FB193ED94A0001E5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8145CB193ED94A0001E5F8 = {
+			isa = PBXGroup;
+			children = (
+				EC8145DD193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */,
+				EC8145FF193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests */,
+				EC8145D6193ED94A0001E5F8 /* Frameworks */,
+				EC8145D5193ED94A0001E5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8145D5193ED94A0001E5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8145D4193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController).app */,
+				EC8145F8193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8145D6193ED94A0001E5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC8145D7193ED94A0001E5F8 /* Foundation.framework */,
+				EC8145D9193ED94A0001E5F8 /* CoreGraphics.framework */,
+				EC8145DB193ED94A0001E5F8 /* UIKit.framework */,
+				EC8145F9193ED94A0001E5F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC8145DD193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */ = {
+			isa = PBXGroup;
+			children = (
+				EC8145E6193ED94A0001E5F8 /* SMAppDelegate.h */,
+				EC8145E7193ED94A0001E5F8 /* SMAppDelegate.m */,
+				EC8145E9193ED94A0001E5F8 /* Main_iPhone.storyboard */,
+				EC8145EC193ED94A0001E5F8 /* Main_iPad.storyboard */,
+				EC8145EF193ED94A0001E5F8 /* SMViewController.h */,
+				EC8145F0193ED94A0001E5F8 /* SMViewController.m */,
+				EC8145F2193ED94A0001E5F8 /* Images.xcassets */,
+				EC8145DE193ED94A0001E5F8 /* Supporting Files */,
+			);
+			path = "Stack Menu (with ECSlidingViewController)";
+			sourceTree = "<group>";
+		};
+		EC8145DE193ED94A0001E5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC8145DF193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)-Info.plist */,
+				EC8145E0193ED94A0001E5F8 /* InfoPlist.strings */,
+				EC8145E3193ED94A0001E5F8 /* main.m */,
+				EC8145E5193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC8145FF193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC814605193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m */,
+				EC814600193ED94A0001E5F8 /* Supporting Files */,
+			);
+			path = "Stack Menu (with ECSlidingViewController)Tests";
+			sourceTree = "<group>";
+		};
+		EC814600193ED94A0001E5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC814601193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests-Info.plist */,
+				EC814602193ED94A0001E5F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8145D3193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC814609193ED94A0001E5F8 /* Build configuration list for PBXNativeTarget "Stack Menu (with ECSlidingViewController)" */;
+			buildPhases = (
+				EC8145D0193ED94A0001E5F8 /* Sources */,
+				EC8145D1193ED94A0001E5F8 /* Frameworks */,
+				EC8145D2193ED94A0001E5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stack Menu (with ECSlidingViewController)";
+			productName = "Stack Menu (with ECSlidingViewController)";
+			productReference = EC8145D4193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController).app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8145F7193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC81460C193ED94A0001E5F8 /* Build configuration list for PBXNativeTarget "Stack Menu (with ECSlidingViewController)Tests" */;
+			buildPhases = (
+				EC8145F4193ED94A0001E5F8 /* Sources */,
+				EC8145F5193ED94A0001E5F8 /* Frameworks */,
+				EC8145F6193ED94A0001E5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8145FE193ED94A0001E5F8 /* PBXTargetDependency */,
+			);
+			name = "Stack Menu (with ECSlidingViewController)Tests";
+			productName = "Stack Menu (with ECSlidingViewController)Tests";
+			productReference = EC8145F8193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8145CC193ED94A0001E5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					EC8145F7193ED94A0001E5F8 = {
+						TestTargetID = EC8145D3193ED94A0001E5F8;
+					};
+				};
+			};
+			buildConfigurationList = EC8145CF193ED94A0001E5F8 /* Build configuration list for PBXProject "Stack Menu (with ECSlidingViewController)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8145CB193ED94A0001E5F8;
+			productRefGroup = EC8145D5193ED94A0001E5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8145D3193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */,
+				EC8145F7193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8145D2193ED94A0001E5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8145EE193ED94A0001E5F8 /* Main_iPad.storyboard in Resources */,
+				EC8145F3193ED94A0001E5F8 /* Images.xcassets in Resources */,
+				EC8145EB193ED94A0001E5F8 /* Main_iPhone.storyboard in Resources */,
+				EC8145E2193ED94A0001E5F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8145F6193ED94A0001E5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC814604193ED94A0001E5F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8145D0193ED94A0001E5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8145E8193ED94A0001E5F8 /* SMAppDelegate.m in Sources */,
+				EC8145F1193ED94A0001E5F8 /* SMViewController.m in Sources */,
+				EC8145E4193ED94A0001E5F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8145F4193ED94A0001E5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC814606193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8145FE193ED94A0001E5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8145D3193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */;
+			targetProxy = EC8145FD193ED94A0001E5F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8145E0193ED94A0001E5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8145E1193ED94A0001E5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EC8145E9193ED94A0001E5F8 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8145EA193ED94A0001E5F8 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8145EC193ED94A0001E5F8 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8145ED193ED94A0001E5F8 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EC814602193ED94A0001E5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC814603193ED94A0001E5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC814607193ED94A0001E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC814608193ED94A0001E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC81460A193ED94A0001E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
+				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EC81460B193ED94A0001E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
+				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EC81460D193ED94A0001E5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stack Menu (with ECSlidingViewController).app/Stack Menu (with ECSlidingViewController)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)Tests/Stack Menu (with ECSlidingViewController)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC81460E193ED94A0001E5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Stack Menu (with ECSlidingViewController).app/Stack Menu (with ECSlidingViewController)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
+				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)Tests/Stack Menu (with ECSlidingViewController)Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8145CF193ED94A0001E5F8 /* Build configuration list for PBXProject "Stack Menu (with ECSlidingViewController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC814607193ED94A0001E5F8 /* Debug */,
+				EC814608193ED94A0001E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC814609193ED94A0001E5F8 /* Build configuration list for PBXNativeTarget "Stack Menu (with ECSlidingViewController)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81460A193ED94A0001E5F8 /* Debug */,
+				EC81460B193ED94A0001E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC81460C193ED94A0001E5F8 /* Build configuration list for PBXNativeTarget "Stack Menu (with ECSlidingViewController)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC81460D193ED94A0001E5F8 /* Debug */,
+				EC81460E193ED94A0001E5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC8145CC193ED94A0001E5F8 /* Project object */;
+}
