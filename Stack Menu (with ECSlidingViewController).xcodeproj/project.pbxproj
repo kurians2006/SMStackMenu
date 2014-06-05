@@ -22,6 +22,17 @@
 		EC8145FC193ED94A0001E5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8145DB193ED94A0001E5F8 /* UIKit.framework */; };
 		EC814604193ED94A0001E5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC814602193ED94A0001E5F8 /* InfoPlist.strings */; };
 		EC814606193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC814605193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m */; };
+		EC814611193ED98D0001E5F8 /* SMInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC814610193ED98D0001E5F8 /* SMInitViewController.m */; };
+		EC81462519400D050001E5F8 /* SMStackMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81462019400D050001E5F8 /* SMStackMenuViewController.m */; };
+		EC81462619400D050001E5F8 /* UIImage+ImageWithUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81462219400D050001E5F8 /* UIImage+ImageWithUIView.m */; };
+		EC81462719400D050001E5F8 /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81462419400D050001E5F8 /* ECSlidingViewController.m */; };
+		EC81462C19400ED30001E5F8 /* SMMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81462B19400ED30001E5F8 /* SMMenuViewController.m */; };
+		EC81462F194011040001E5F8 /* up_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EC81462D194011040001E5F8 /* up_arrow.png */; };
+		EC814630194011040001E5F8 /* down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EC81462E194011040001E5F8 /* down_arrow.png */; };
+		EC814632194011C80001E5F8 /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = EC814631194011C80001E5F8 /* gradient.png */; };
+		EC8146361940179C0001E5F8 /* SMHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8146351940179C0001E5F8 /* SMHomeViewController.m */; };
+		EC814639194019070001E5F8 /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EC814638194019070001E5F8 /* menu-icon.png */; };
+		EC81463C194019DA0001E5F8 /* SMParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC81463B194019DA0001E5F8 /* SMParentViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +66,24 @@
 		EC814601193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController)Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Stack Menu (with ECSlidingViewController)Tests-Info.plist"; sourceTree = "<group>"; };
 		EC814603193ED94A0001E5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC814605193ED94A0001E5F8 /* Stack_Menu__with_ECSlidingViewController_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack_Menu__with_ECSlidingViewController_Tests.m; sourceTree = "<group>"; };
+		EC81460F193ED98D0001E5F8 /* SMInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMInitViewController.h; sourceTree = "<group>"; };
+		EC814610193ED98D0001E5F8 /* SMInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMInitViewController.m; sourceTree = "<group>"; };
+		EC81461F19400D050001E5F8 /* SMStackMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMStackMenuViewController.h; sourceTree = "<group>"; };
+		EC81462019400D050001E5F8 /* SMStackMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMStackMenuViewController.m; sourceTree = "<group>"; };
+		EC81462119400D050001E5F8 /* UIImage+ImageWithUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithUIView.h"; sourceTree = "<group>"; };
+		EC81462219400D050001E5F8 /* UIImage+ImageWithUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithUIView.m"; sourceTree = "<group>"; };
+		EC81462319400D050001E5F8 /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECSlidingViewController.h; sourceTree = "<group>"; };
+		EC81462419400D050001E5F8 /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECSlidingViewController.m; sourceTree = "<group>"; };
+		EC81462A19400ED30001E5F8 /* SMMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMMenuViewController.h; sourceTree = "<group>"; };
+		EC81462B19400ED30001E5F8 /* SMMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMMenuViewController.m; sourceTree = "<group>"; };
+		EC81462D194011040001E5F8 /* up_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up_arrow.png; sourceTree = "<group>"; };
+		EC81462E194011040001E5F8 /* down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_arrow.png; sourceTree = "<group>"; };
+		EC814631194011C80001E5F8 /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		EC8146341940179C0001E5F8 /* SMHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHomeViewController.h; sourceTree = "<group>"; };
+		EC8146351940179C0001E5F8 /* SMHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHomeViewController.m; sourceTree = "<group>"; };
+		EC814638194019070001E5F8 /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		EC81463A194019DA0001E5F8 /* SMParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMParentViewController.h; sourceTree = "<group>"; };
+		EC81463B194019DA0001E5F8 /* SMParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMParentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,12 +143,13 @@
 		EC8145DD193ED94A0001E5F8 /* Stack Menu (with ECSlidingViewController) */ = {
 			isa = PBXGroup;
 			children = (
+				EC814637194017A90001E5F8 /* ViewControllers */,
 				EC8145E6193ED94A0001E5F8 /* SMAppDelegate.h */,
 				EC8145E7193ED94A0001E5F8 /* SMAppDelegate.m */,
 				EC8145E9193ED94A0001E5F8 /* Main_iPhone.storyboard */,
 				EC8145EC193ED94A0001E5F8 /* Main_iPad.storyboard */,
-				EC8145EF193ED94A0001E5F8 /* SMViewController.h */,
-				EC8145F0193ED94A0001E5F8 /* SMViewController.m */,
+				EC81462819400D0D0001E5F8 /* SMStackMenu */,
+				EC8146331940139A0001E5F8 /* Images */,
 				EC8145F2193ED94A0001E5F8 /* Images.xcassets */,
 				EC8145DE193ED94A0001E5F8 /* Supporting Files */,
 			);
@@ -153,6 +183,55 @@
 				EC814602193ED94A0001E5F8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC81462819400D0D0001E5F8 /* SMStackMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EC81461F19400D050001E5F8 /* SMStackMenuViewController.h */,
+				EC81462019400D050001E5F8 /* SMStackMenuViewController.m */,
+				EC81462919400DB50001E5F8 /* ECSlidingViewController */,
+			);
+			name = SMStackMenu;
+			sourceTree = "<group>";
+		};
+		EC81462919400DB50001E5F8 /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC81462119400D050001E5F8 /* UIImage+ImageWithUIView.h */,
+				EC81462219400D050001E5F8 /* UIImage+ImageWithUIView.m */,
+				EC81462319400D050001E5F8 /* ECSlidingViewController.h */,
+				EC81462419400D050001E5F8 /* ECSlidingViewController.m */,
+			);
+			name = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+		EC8146331940139A0001E5F8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC814638194019070001E5F8 /* menu-icon.png */,
+				EC814631194011C80001E5F8 /* gradient.png */,
+				EC81462D194011040001E5F8 /* up_arrow.png */,
+				EC81462E194011040001E5F8 /* down_arrow.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		EC814637194017A90001E5F8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC8145EF193ED94A0001E5F8 /* SMViewController.h */,
+				EC8145F0193ED94A0001E5F8 /* SMViewController.m */,
+				EC81460F193ED98D0001E5F8 /* SMInitViewController.h */,
+				EC814610193ED98D0001E5F8 /* SMInitViewController.m */,
+				EC81462A19400ED30001E5F8 /* SMMenuViewController.h */,
+				EC81462B19400ED30001E5F8 /* SMMenuViewController.m */,
+				EC8146341940179C0001E5F8 /* SMHomeViewController.h */,
+				EC8146351940179C0001E5F8 /* SMHomeViewController.m */,
+				EC81463A194019DA0001E5F8 /* SMParentViewController.h */,
+				EC81463B194019DA0001E5F8 /* SMParentViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +312,12 @@
 			files = (
 				EC8145EE193ED94A0001E5F8 /* Main_iPad.storyboard in Resources */,
 				EC8145F3193ED94A0001E5F8 /* Images.xcassets in Resources */,
+				EC81462F194011040001E5F8 /* up_arrow.png in Resources */,
+				EC814639194019070001E5F8 /* menu-icon.png in Resources */,
+				EC814632194011C80001E5F8 /* gradient.png in Resources */,
 				EC8145EB193ED94A0001E5F8 /* Main_iPhone.storyboard in Resources */,
 				EC8145E2193ED94A0001E5F8 /* InfoPlist.strings in Resources */,
+				EC814630194011040001E5F8 /* down_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,9 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC81462619400D050001E5F8 /* UIImage+ImageWithUIView.m in Sources */,
+				EC814611193ED98D0001E5F8 /* SMInitViewController.m in Sources */,
+				EC81462719400D050001E5F8 /* ECSlidingViewController.m in Sources */,
+				EC81462519400D050001E5F8 /* SMStackMenuViewController.m in Sources */,
+				EC81463C194019DA0001E5F8 /* SMParentViewController.m in Sources */,
 				EC8145E8193ED94A0001E5F8 /* SMAppDelegate.m in Sources */,
+				EC81462C19400ED30001E5F8 /* SMMenuViewController.m in Sources */,
 				EC8145F1193ED94A0001E5F8 /* SMViewController.m in Sources */,
 				EC8145E4193ED94A0001E5F8 /* main.m in Sources */,
+				EC8146361940179C0001E5F8 /* SMHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +480,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
 				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Info.plist";
@@ -403,6 +494,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Prefix.pch";
 				INFOPLIST_FILE = "Stack Menu (with ECSlidingViewController)/Stack Menu (with ECSlidingViewController)-Info.plist";
@@ -470,6 +562,7 @@
 				EC81460B193ED94A0001E5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC81460C193ED94A0001E5F8 /* Build configuration list for PBXNativeTarget "Stack Menu (with ECSlidingViewController)Tests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +571,7 @@
 				EC81460E193ED94A0001E5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
